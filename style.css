@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.logo-img img {
+    width: 12rem;
+    position: relative;
+    left: 9rem;
+    top: 1rem;
+}
+
+.main-section {
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 37rem;
+    background-size: max(100vw);
+    position: relative;
+}
+
+.main-section .box {
+    height: 37rem;
+    opacity: 0.70;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav img {
+    color: red;
+    width: 8rem;
+    position: relative;
+    z-index: 5;
+}
+
+nav button {
+    position: relative;
+    z-index: 5;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Martel Sans', sans-serif;
+    position: relative;
+    gap: .5rem;
+    padding: 0 2rem;
+    color: white;
+    height: calc(100% - 6.5rem);
+}
+
+.hero-section .heading {
+    font-size: 4rem;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.hero-section .sub-heading {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.hero-section .sub {
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.spacing {
+    height: 7px;
+    background-color: rgb(46, 44, 44);
+    position: relative;
+    z-index: 20;
+}
+
+.links {
+    display: flex;
+    padding: 2rem 8rem;
+    z-index: 10;
+}
+
+.links .btn {
+    margin-right: 1.5rem;
+    padding-inline: 3rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    font-weight: bold;
+    background-color: rgba(248, 243, 243, 0.021);
+    color: white;
+    border-radius: .3rem;
+    border: 1px solid white;
+    font-size: 1rem;
+}
+
+.links .btn2 {
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    border: 1px solid red;
+}
+
+.hero-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.hero-buttons input {
+    padding: .5rem 3rem;
+    color: white;
+    font-size: 2rem;
+    border-radius: .2rem;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(246, 238, 238, 0.5);
+}
+
+.btn-red {
+    background-color: red;
+    color: white;
+    padding: .5rem 3rem;
+    font-size: 2rem;
+    border-radius: 4px;
+    font-weight: 400;
+}
+
+.card {
+    width: 15rem;
+    height: 18rem;
+    margin-right: 5rem;
+}
+
+.trending {
+    color: white;
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin: 2rem 2rem;
+    position: relative;
+    left: 4rem;
+}
+
+.cards {
+    margin: 2rem 2rem;
+    position: relative;
+    left: 4rem;
+    display: flex;
+}
+
+div .one {
+    position: relative;
+    bottom: 10rem;
+    right: 5rem;
+    height: 9rem;
+}
+
+.trending2 {
+    color: white;
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin: 2rem;
+    position: relative;
+    left: 4rem;
+    bottom: 4rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    margin-inline: 4rem;
+    justify-items: center;
+    position: relative;
+    bottom: 2rem;
+    left: .5rem;
+}
+
+.sub-card {
+    background: linear-gradient(to bottom, rgb(101, 97, 115), rgb(23, 6, 56));
+    border-radius: 12px;
+    padding: 1.5px;
+    position: relative;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    height: 28rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sub-card h2 {
+    margin: 1rem;
+    font-size: 2rem;
+    color: white;
+
+}
+
+.sub-card p {
+    font-size: 1.7rem;
+    color: #b4b3b6;
+    flex: 1;
+    margin: 1rem;
+}
+
+.sub-card i {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    font-size: 5rem;
+    background: linear-gradient(to right, rgb(255, 0, 140), rgb(157, 0, 255));
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.container {
+    display: grid;
+    gap: 1rem;
+    justify-items: center;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    background: rgb(69, 68, 68);
+    padding: 2rem 2rem;
+    border-radius: .5rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    width: 75%;
+}
+
+.icon {
+    font-size: 3rem;
+    color: #ffffff;
+}
+
+.row-text {
+    color: white;
+    font-size: 2rem;
+}
+
+.trending-sub {
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+    position: relative;
+    bottom: 2rem;
+}
+
+footer {
+    font-size: 1.5rem;
+    color: #b4b3b6;
+    margin-left: 10rem;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 15rem 15rem 15rem 15rem;
+    grid-template-rows: 4rem 4rem 4rem 4rem;
+    column-gap: 4rem;
+    justify-items: flex-start;
+    margin-top: 4rem;
+    
+
+}
+.grid-container .grid-item a{
+    color: #b4b3b6;
+}
+.grid-item a:hover{
+    color: red;
+}
+.grid-item{
+    font-size: 1rem;
+}
